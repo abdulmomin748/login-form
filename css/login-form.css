@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+
+.main-nav ul{
+    display: flex;
+    margin: 0 -20px;
+}
+.main-nav ul li{
+    padding: 0 20px;
+}
+.main-nav ul li a,.log-in a{
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+}
+.log-in{
+    display: flex;
+}
+.log-in a{
+    display: flex;
+    align-items: center;
+}
+.log-in a i {
+    padding-left: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.frm-tp ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 -20px;
+}
+.frm-tp li{
+    padding: 0 20px;
+}
+.frm-tp ul li i{
+    font-size: 40px;
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    color: #c8cc2a;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.frm-tp ul li a,
+strong{
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    margin-left: 8px;
+    font-weight: normal;
+    transition: all .5s;
+}
+.frm-tp ul li a:hover{
+    color: #ffdb00;
+}
+.frm-tp ul li  span{
+    font-size: 22px;
+    display: inline-block;
+    color: #ffdb00;
+}
+.frm-cntr {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+.from-cntlr{
+    background-color: #0093E9;
+    background-image: linear-gradient(176deg, #0093E9 0%, #80D0C7 100%);
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+input[type="email"],
+input[type="password"],
+button{
+    width: 100%;
+    padding: 18px 19px 18px 45px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px;
+    transition: all .5s;
+    font-size: 19px;
+    border: 1px solid transparent;
+}
+.frm-rgt button:hover{
+    background-color: #41403d;
+}
+.crete-account a:hover i {
+    transform: translate(10px);
+}
+.crete-account a i{
+    transition: all .5s;
+}
+.frm-rgt button {
+    border: none;
+    cursor: pointer;
+    background-color: #f5d71d;
+    color: #fff;
+    margin-top: 15px;
+}
+input[type="email"]:focus,
+input[type="password"]:focus{
+    outline: 0;
+    border-color: #f5d71d;
+}
+.frm-lft {
+    width: 47%;
+    padding-right: 40px;
+}
+.frm-rgt {
+    width: 55%;
+    padding-left: 40px;
+}
+img {
+    width: 100%;
+}
+.frm-rgt h3 {
+    margin-bottom: 30px;
+    color: #f5d71d;
+    font-size: 35px;
+}
+.forgot-usrname-pas{
+    text-align: center;
+}
+.forgot-usrname-pas span {
+    color: #e7dddd;
+    font-size: 18px;
+}
+
+.forgot-usrname-pas a {
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 8px;
+    color: #fff;
+    letter-spacing: .5px;
+    /* text-align: center; */
+}
+.crete-account {
+    padding-top: 60px;
+}
+
+.crete-account a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+.main-nav ul li a:hover, .log-in a:hover {
+    color: #035a9e;
+}
+.input-row{
+    position: relative;
+}
+.input-row i {
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    color: #887d5c;
+    font-size: 17px;
+}
